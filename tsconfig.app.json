@@ -4,10 +4,13 @@
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
-    "noEmit": true,
     "baseUrl": ".",
+    "verbatimModuleSyntax": false,
     "paths": {
       "@/*": ["./src/*"]
     }
+  },
+  "vueCompilerOptions": {
+    "strictTemplates": true
   }
 }
