@@ -1,14 +1,14 @@
 {
-  "numTotalTestSuites": 2,
-  "numPassedTestSuites": 2,
+  "numTotalTestSuites": 4,
+  "numPassedTestSuites": 4,
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 1,
-  "numPassedTests": 1,
+  "numTotalTests": 3,
+  "numPassedTests": 3,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1705674436817,
+  "startTime": 1705690590651,
   "success": true,
   "testResults": [
     {
@@ -21,15 +21,46 @@
           "fullName": " App.vue renders a title",
           "status": "passed",
           "title": "renders a title",
-          "duration": 12,
+          "duration": 9,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "App.vue"
+          ],
+          "fullName": " App.vue renders the navbar",
+          "status": "passed",
+          "title": "renders the navbar",
+          "duration": 18,
           "failureMessages": []
         }
       ],
-      "startTime": 1705674437362,
-      "endTime": 1705674437374,
+      "startTime": 1705690591519,
+      "endTime": 1705690591546,
       "status": "passed",
       "message": "",
       "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/__tests__/App.spec.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Navbar.vue"
+          ],
+          "fullName": " Navbar.vue should toggle the class on click",
+          "status": "passed",
+          "title": "should toggle the class on click",
+          "duration": 27,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1705690591513,
+      "endTime": 1705690591540,
+      "status": "passed",
+      "message": "",
+      "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/components/__tests__/Navbar.spec.ts"
     }
   ]
 }

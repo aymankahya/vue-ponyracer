@@ -12,6 +12,8 @@
     }
   ],
   "compilerOptions": {
+    "baseUrl": "src/",
+    "checkJs": true,
     "module": "NodeNext"
   }
 }
