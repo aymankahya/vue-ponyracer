@@ -1,14 +1,14 @@
 {
-  "numTotalTestSuites": 8,
-  "numPassedTestSuites": 8,
+  "numTotalTestSuites": 10,
+  "numPassedTestSuites": 10,
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 6,
-  "numPassedTests": 6,
+  "numTotalTests": 7,
+  "numPassedTests": 7,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1706090975665,
+  "startTime": 1706092626646,
   "success": true,
   "testResults": [
     {
@@ -21,7 +21,7 @@
           "fullName": " App.vue renders a title",
           "status": "passed",
           "title": "renders a title",
-          "duration": 6,
+          "duration": 7,
           "failureMessages": []
         },
         {
@@ -47,8 +47,8 @@
           "failureMessages": []
         }
       ],
-      "startTime": 1706090976417,
-      "endTime": 1706090976443,
+      "startTime": 1706092627452,
+      "endTime": 1706092627478,
       "status": "passed",
       "message": "",
       "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/__tests__/App.spec.ts"
@@ -63,12 +63,12 @@
           "fullName": " Navbar.vue should toggle the class on click",
           "status": "passed",
           "title": "should toggle the class on click",
-          "duration": 19,
+          "duration": 22,
           "failureMessages": []
         }
       ],
-      "startTime": 1706090976412,
-      "endTime": 1706090976431,
+      "startTime": 1706092627373,
+      "endTime": 1706092627395,
       "status": "passed",
       "message": "",
       "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/components/__tests__/Navbar.spec.ts"
@@ -83,15 +83,35 @@
           "fullName": " Race.vue should display a race name and its ponies",
           "status": "passed",
           "title": "should display a race name and its ponies",
-          "duration": 17,
+          "duration": 24,
           "failureMessages": []
         }
       ],
-      "startTime": 1706090976408,
-      "endTime": 1706090976425,
+      "startTime": 1706092627420,
+      "endTime": 1706092627444,
       "status": "passed",
       "message": "",
       "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/components/__tests__/Race.spec.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "FromNow"
+          ],
+          "fullName": " FromNow should transform a date",
+          "status": "passed",
+          "title": "should transform a date",
+          "duration": 2,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1706092627383,
+      "endTime": 1706092627385,
+      "status": "passed",
+      "message": "",
+      "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/utils/__tests__/FromNow.spec.ts"
     },
     {
       "assertionResults": [
@@ -103,12 +123,12 @@
           "fullName": " Races.vue should display every race name in a title",
           "status": "passed",
           "title": "should display every race name in a title",
-          "duration": 12,
+          "duration": 13,
           "failureMessages": []
         }
       ],
-      "startTime": 1706090976413,
-      "endTime": 1706090976425,
+      "startTime": 1706092627449,
+      "endTime": 1706092627462,
       "status": "passed",
       "message": "",
       "name": "/Users/aymankahya/Desktop/Practice/ponyracer/src/views/__tests__/Races.spec.ts"
